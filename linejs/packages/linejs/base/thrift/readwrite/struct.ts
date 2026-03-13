@@ -1,4 +1,4 @@
-import * as LINETypes from "../../../../linejs-types/mod.ts";
+import * as LINETypes from "@evex/linejs-types/mod.ts";
 import type { NestedArray } from "../mod.ts";
 import type { LooseType } from "@evex/loose-types";
 
