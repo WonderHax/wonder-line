@@ -1,0 +1,31 @@
+{
+  "name": "wonder-line",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/linejs/packages/linejs/client/login.js",
+  "types": "dist/linejs/packages/linejs/client/login.d.ts",
+  "exports": {
+    "./client/login": {
+      "import": "./dist/linejs/packages/linejs/client/login.js",
+      "types": "./dist/linejs/packages/linejs/client/login.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderhax/wonder-line.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wonderhax/wonder-line/issues"
+  },
+  "homepage": "https://github.com/wonderhax/wonder-line#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
