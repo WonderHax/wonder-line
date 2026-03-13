@@ -1,0 +1,6 @@
+{
+	"deno.enable": true,
+	 "typescript.suggestionActions.enabled": false,
+  "editor.lightbulb.enabled": false,
+  "editor.inlayHints.enabled": "off"
+}
