@@ -1,4 +1,4 @@
-import * as LINETypes from "@evex/linejs-types";
+import * as LINETypes from "npm:@evex/linejs-types";
 import type { NestedArray } from "../mod.ts";
 import type { LooseType } from "@evex/loose-types";
 
