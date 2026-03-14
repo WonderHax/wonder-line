@@ -1,8 +1,8 @@
-import { sharedKey } from "curve25519-js";
-import crypto from "node:crypto";
+import { sharedKey } from "https://esm.sh/curve25519-js@0.0.4";
+const crypto = globalThis.crypto;
 import { Buffer } from "node:buffer";
 import type { Location, Message } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import nacl from "tweetnacl";
+import nacl from "https://esm.sh/tweetnacl@1.0.3";
 import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/utils/error.ts";
 import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/mod.ts";
