@@ -35,7 +35,8 @@ import { Timeline } from "../timeline/mod.ts";
 import { Polling } from "../polling/mod.ts";
 import { ConnManager } from "../push/mod.ts";
 
-import { Thrift as def } from "@evex/linejs-types/thrift";
+import { Thrift as def } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
+
 
 import type * as LINETypes from "@evex/linejs-types";
 import type { Fetch, FetchLike } from "../types.ts";
