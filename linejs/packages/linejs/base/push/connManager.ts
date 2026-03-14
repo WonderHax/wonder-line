@@ -1,16 +1,16 @@
-import type { LegyH2PushFrame } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/connData.ts";
-import { Conn } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/conn.ts";
-import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/mod.ts";
+import type { LegyH2PushFrame } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/connData.ts";
+import { Conn } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/conn.ts";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/mod.ts";
 import { TCompactProtocol } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
-import { TMoreCompactProtocol } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/tmc.ts";
+import { TMoreCompactProtocol } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/tmc.ts";
 
 // GOMI:
 import {
 	type PartialDeep,
 	SquareService_fetchMyEvents_args as gen_SquareService_fetchMyEvents_args,
 	sync_args as gen_sync_args,
-} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
 
 import type {
 	Operation,
@@ -21,7 +21,7 @@ import type {
 	sync_result,
 } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 
-import type { ParsedThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
+import type { ParsedThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
 import { Buffer } from "node:buffer";
 import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 

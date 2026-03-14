@@ -2,15 +2,15 @@ import {
 	type Device,
 	type DeviceDetails,
 	getDeviceDetails,
-} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/devices.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/devices.ts";
 
-import { type BaseStorage, MemoryStorage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/storage/mod.ts";
+import { type BaseStorage, MemoryStorage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/storage/mod.ts";
 
-import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/typed-event-emitter/index.ts";
+import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/typed-event-emitter/index.ts";
 
-import type { ClientEvents, Log } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/events.ts";
-import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/error.ts";
-import { type Continuable, continueRequest } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/continue.ts";
+import type { ClientEvents, Log } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/events.ts";
+import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/error.ts";
+import { type Continuable, continueRequest } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/continue.ts";
 
 export type { Continuable, Device, DeviceDetails, Log };
 export { continueRequest, InternalError };
@@ -24,16 +24,16 @@ import {
 	SquareLiveTalkService,
 	SquareService,
 	TalkService,
-} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/service/mod.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/service/mod.ts";
 
-import { Login } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/login/mod.ts";
-import { Thrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
-import { RequestClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/request/mod.ts";
-import { E2EE } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/e2ee/mod.ts";
-import { LineObs } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/obs/mod.ts";
-import { Timeline } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/timeline/mod.ts";
-import { Polling } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/polling/mod.ts";
-import { ConnManager } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/mod.ts";
+import { Login } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/login/mod.ts";
+import { Thrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
+import { RequestClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/request/mod.ts";
+import { E2EE } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/e2ee/mod.ts";
+import { LineObs } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/obs/mod.ts";
+import { Timeline } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/timeline/mod.ts";
+import { Polling } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/polling/mod.ts";
+import { ConnManager } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/mod.ts";
 
 import { Thrift as def } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 <<<<<<< HEAD
@@ -42,7 +42,7 @@ import { Thrift as def } from "https://raw.githubusercontent.com/wonderhax/wonde
 >>>>>>> c1c0f77a56faf6f7711b9f1fa66e9c9d5c4a4fbc
 
 import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import type { Fetch, FetchLike } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/types.ts";
+import type { Fetch, FetchLike } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/types.ts";
 import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 export interface LoginOption {

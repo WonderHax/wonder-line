@@ -3,7 +3,7 @@
 import * as thrift from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 import { Buffer } from "node:buffer";
-import type { ParsedThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
+import type { ParsedThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
 
 /**
  * @returns {any}

@@ -1,4 +1,4 @@
-import type { ParsedThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
+import type { ParsedThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
 export declare class ThriftRenameParser {
     #private;
     def: Record<string, Record<string, string> | any[]>;

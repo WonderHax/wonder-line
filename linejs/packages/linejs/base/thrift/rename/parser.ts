@@ -1,5 +1,5 @@
 // deno-lint-ignore-file no-explicit-any
-import type { ParsedThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
+import type { ParsedThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
 
 // const TYPE: Record<string, number> = {
 // 	STOP: 0,

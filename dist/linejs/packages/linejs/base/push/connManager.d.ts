@@ -1,6 +1,6 @@
-import type { LegyH2PushFrame } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/push/connData.ts";
-import { Conn } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/push/conn.ts";
-import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/mod.ts";
+import type { LegyH2PushFrame } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/push/connData.ts";
+import { Conn } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/push/conn.ts";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/mod.ts";
 import type { Operation, SquareEvent } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 export interface ReadableStreamWriter<T> {

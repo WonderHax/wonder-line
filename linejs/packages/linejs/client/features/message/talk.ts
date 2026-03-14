@@ -4,7 +4,7 @@ import type {
 	Message,
 	MessageReactionType,
 } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/client.ts";
+import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/client.ts";
 
 import type {
 	ContactMeta,
@@ -12,9 +12,9 @@ import type {
 	FlexMeta,
 	MentionMeta,
 	StickerMetadata,
-} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/message/internal-types.ts";
-import type { DecorationsData, MentionTarget, Mid } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/message/types.ts";
-import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/message/internal-types.ts";
+import type { DecorationsData, MentionTarget, Mid } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/message/types.ts";
+import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
 
 export interface TalkMessageInit {
 	client: Client;

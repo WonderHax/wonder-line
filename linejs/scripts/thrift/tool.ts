@@ -1,10 +1,10 @@
 // --input=path/to/file.thrift --thrift=path/to/out.ts --type=path/to/out.ts --struct=path/to/out.ts
-import { parseThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/scripts/thrift/parser.ts";
-import { main as typedef } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/scripts/thrift/gen_typedef.ts";
-import { main as struct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/scripts/thrift/gen_struct.ts";
+import { parseThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/scripts/thrift/parser.ts";
+import { main as typedef } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/scripts/thrift/gen_typedef.ts";
+import { main as struct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/scripts/thrift/gen_struct.ts";
 import { parse } from "https://deno.land/std@0.224.0/flags/mod.ts";
 import { fromFileUrl } from "https://deno.land/std@0.224.0/path/mod.ts";
-import { Thrift as _Thrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/types/thrift.ts";
+import { Thrift as _Thrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/types/thrift.ts";
 
 const flags = parse(Deno.args, {
 	string: ["thrift", "type", "struct", "input"],

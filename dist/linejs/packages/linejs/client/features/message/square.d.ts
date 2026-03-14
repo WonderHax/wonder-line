@@ -1,6 +1,6 @@
 import { type ContentType, type Location, type MessageReactionType, type SquareEvent, type SquareMessage as Message } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/client.ts";
-import type { DecorationsData, MentionTarget, Mid } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/features/message/types.ts";
+import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/client.ts";
+import type { DecorationsData, MentionTarget, Mid } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/features/message/types.ts";
 export interface SquareThreadMessageInit {
     client: Client;
     raw: Message;

@@ -3,7 +3,7 @@
  */
 
 // deno-lint-ignore-file no-explicit-any
-import thriftIdl from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/scripts/thrift/thrift-idl.js";
+import thriftIdl from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/scripts/thrift/thrift-idl.js";
 
 const TYPE: Record<string, number> = {
 	STOP: 0,

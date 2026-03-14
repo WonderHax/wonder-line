@@ -1,4 +1,4 @@
-import type { DecorationsData } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/features/message/types.ts";
+import type { DecorationsData } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/features/message/types.ts";
 /**
  * Build text decorations (emoji,mention)
  */
