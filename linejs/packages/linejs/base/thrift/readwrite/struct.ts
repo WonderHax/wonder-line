@@ -1,4 +1,5 @@
-import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/mod.ts";
+import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
+
 
 import type { NestedArray } from "../mod.ts";
 import type { LooseType } from "@evex/loose-types";
