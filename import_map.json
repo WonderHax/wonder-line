@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@evex/linejs-types": "./linejs/packages/types/line_types.ts",
-    "@evex/loose-types": "./linejs/packages/types/thrift.ts"
+    "@evex/linejs-types": "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts",
+    "@evex/loose-types": "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts"
   }
 }
