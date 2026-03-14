@@ -5,8 +5,6 @@ import {
 
 } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/utils/devices.ts";
 
-} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/utils/devices.ts";
-
 import { type BaseStorage, MemoryStorage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/storage/mod.ts";
 
 import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/typed-event-emitter/index.ts";
