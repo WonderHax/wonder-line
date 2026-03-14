@@ -36,6 +36,10 @@ import { Polling } from "https://raw.githubusercontent.com/wonderhax/wonder-line
 import { ConnManager } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/mod.ts";
 
 import { Thrift as def } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
+<<<<<<< HEAD
+=======
+
+>>>>>>> c1c0f77a56faf6f7711b9f1fa66e9c9d5c4a4fbc
 
 import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 import type { Fetch, FetchLike } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/types.ts";

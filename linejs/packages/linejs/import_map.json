@@ -3,4 +3,8 @@
     "@evex/linejs-types": "../../types/line_types.ts",
     "@evex/loose-types": "../../types/thrift.ts"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c1c0f77a56faf6f7711b9f1fa66e9c9d5c4a4fbc
