@@ -1,4 +1,4 @@
-import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/mod.ts";
 import type { Operation, SquareEvent } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 
 export interface SyncData {

@@ -1,5 +1,5 @@
 import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import type { NestedArray } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/thrift/mod.ts";
+import type { NestedArray } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/mod.ts";
 export type PartialDeep<T> = {
     [P in keyof T]?: T[P] extends Array<infer U> ? Array<PartialDeep<U>> : T[P] extends ReadonlyArray<infer UU> ? ReadonlyArray<PartialDeep<UU>> : PartialDeep<T[P]>;
 };

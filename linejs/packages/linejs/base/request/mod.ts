@@ -3,8 +3,8 @@ import {
 	type ParsedThrift,
 	type ProtocolKey,
 	Protocols,
-} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
-import { type BaseClient, InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/mod.ts";
+import { type BaseClient, InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/mod.ts";
 
 const square = ["/SQ1", "/SQLV1"];
 

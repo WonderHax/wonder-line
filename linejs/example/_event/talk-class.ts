@@ -5,11 +5,11 @@
  */
 import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 import { parseEnum } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts/thrift";
-import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/example/core/mod.ts";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/example/core/mod.ts";
 import type { Buffer } from "node:buffer";
-import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/example/core/typed-event-emitter/index.ts";
-import { TalkMessage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/example/_event/message-class.ts";
-import type { TimelineResponse } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/example/timeline/mod.ts";
+import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/example/core/typed-event-emitter/index.ts";
+import { TalkMessage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/example/_event/message-class.ts";
+import type { TimelineResponse } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/example/timeline/mod.ts";
 import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 type GroupEvents = {

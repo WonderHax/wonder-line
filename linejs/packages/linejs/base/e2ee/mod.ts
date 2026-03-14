@@ -3,10 +3,10 @@ import crypto from "node:crypto";
 import { Buffer } from "node:buffer";
 import type { Location, Message } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 import nacl from "tweetnacl";
-import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/error.ts";
+import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/utils/error.ts";
 import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
-import { ContentType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/mod.ts";
+import { ContentType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
 import CryptoJS from "crypto-js";
 import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 

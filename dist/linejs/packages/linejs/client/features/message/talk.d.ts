@@ -1,7 +1,7 @@
 import type { ContentType, Location, Message, MessageReactionType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/client.ts";
-import type { ContactMeta } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/features/message/internal-types.ts";
-import type { DecorationsData, MentionTarget, Mid } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/features/message/types.ts";
+import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/client/client.ts";
+import type { ContactMeta } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/client/features/message/internal-types.ts";
+import type { DecorationsData, MentionTarget, Mid } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/client/features/message/types.ts";
 export interface TalkMessageInit {
     client: Client;
     raw: Message;

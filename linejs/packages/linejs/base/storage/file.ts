@@ -1,5 +1,5 @@
 import * as fs from "node:fs";
-import { BaseStorage, type Storage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/storage/base.ts";
+import { BaseStorage, type Storage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/storage/base.ts";
 
 /**
  * @classdesc File Storage for LINE Client

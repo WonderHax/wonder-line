@@ -1,7 +1,7 @@
-import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/mod.ts";
+import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/client/mod.ts";
 import type * as line from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import { TalkMessage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/features/message/talk.ts";
-import { type MessageFetcher } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/client/features/chat/fetcher.ts";
+import { TalkMessage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/client/features/message/talk.ts";
+import { type MessageFetcher } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/client/features/chat/fetcher.ts";
 interface ChatInit {
     client: Client;
     raw: line.Chat;

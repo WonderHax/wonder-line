@@ -1,4 +1,4 @@
-import { Thrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/types/thrift.ts";
+import { Thrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 const used: string[] = [];
 

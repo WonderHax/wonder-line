@@ -1,8 +1,8 @@
-export { type NestedArray, type ParsedThrift, type ProtocolKey, Protocols, } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
-export * as LINEStruct from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
-import { ThriftRenameParser } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/thrift/rename/parser.ts";
-import { readThrift, readThriftStruct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/thrift/readwrite/read.ts";
-import { writeThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/dist/linejs/packages/linejs/base/thrift/readwrite/write.ts";
+export { type NestedArray, type ParsedThrift, type ProtocolKey, Protocols, } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
+export * as LINEStruct from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
+import { ThriftRenameParser } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/rename/parser.ts";
+import { readThrift, readThriftStruct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/read.ts";
+import { writeThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/write.ts";
 /**
  * Thrift Client
  */

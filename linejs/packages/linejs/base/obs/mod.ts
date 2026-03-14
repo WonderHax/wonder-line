@@ -1,9 +1,9 @@
 import { Buffer } from "node:buffer";
-import { type BaseClient, InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
-import { MimeType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/obs/mime.ts";
+import { type BaseClient, InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/mod.ts";
+import { MimeType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/obs/mime.ts";
 import crypto from "node:crypto";
 import type { Message } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-import { writeStruct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/write.ts";
+import { writeStruct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/write.ts";
 // @ts-types="thrift-types"
 import * as thrift from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 

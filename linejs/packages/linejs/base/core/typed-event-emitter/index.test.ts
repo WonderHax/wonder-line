@@ -1,5 +1,5 @@
 import { assertEquals } from "@std/assert";
-import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/typed-event-emitter/index.ts";
+import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/typed-event-emitter/index.ts";
 
 Deno.test("promise() should be vaild", async () => {
 	type Events = {
