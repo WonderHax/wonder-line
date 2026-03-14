@@ -1,4 +1,4 @@
-import { Key } from "node-bignumber";
+import { Key } from "https://esm.sh/bignumber.js";
 import type { RSAKey } from "@evex/linejs-types";
 
 export function getRSACrypto(message: string, json: RSAKey) {
