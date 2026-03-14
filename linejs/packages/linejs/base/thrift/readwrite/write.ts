@@ -7,7 +7,7 @@ import {
 	type ProtocolKey,
 	type Protocols,
 } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
-import { Int64 } from "https://esm.sh/int64-buffer";
+import Int64 from "https://esm.sh/int64-buffer@0.1.0?cjs";
 import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 const Thrift = thrift.Thrift;
