@@ -1,10 +1,5 @@
-import { Key } from "https://esm.sh/bignumber.js";
-<<<<<<< HEAD
+import BigNumber from "https://esm.sh/bignumber.js@9.1.2";
 import type { RSAKey } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
-=======
-import type { RSAKey } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
-
->>>>>>> c1c0f77a56faf6f7711b9f1fa66e9c9d5c4a4fbc
 
 export function getRSACrypto(message: string, json: RSAKey) {
 	const rsa = new Key();
