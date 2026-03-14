@@ -7,7 +7,7 @@ import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonde
 import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/core/mod.ts";
 import { ContentType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
-import CryptoJS from "crypto-js";
+import CryptoJS from "https://esm.sh/crypto-js@4.2.0";
 import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 interface GroupKey {
