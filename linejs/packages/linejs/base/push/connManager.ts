@@ -1,7 +1,7 @@
 import type { LegyH2PushFrame } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/push/connData.ts";
 import { Conn } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/push/conn.ts";
 import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/mod.ts";
-import { TCompactProtocol } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
+import { TCompactProtocol } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
 
 import { TMoreCompactProtocol } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/linejs/base/thrift/readwrite/tmc.ts";
 
