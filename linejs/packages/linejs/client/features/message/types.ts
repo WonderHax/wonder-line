@@ -1,4 +1,4 @@
-import type { MIDType } from "@evex/linejs-types";
+import type { MIDType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 
 export type MentionTarget = {
 	all: true;

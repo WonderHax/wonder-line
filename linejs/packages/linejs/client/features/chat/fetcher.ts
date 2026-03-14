@@ -1,7 +1,7 @@
-import type { Client } from "../../client.ts";
-import type { Chat } from "./mod.ts";
-import type * as line from "@evex/linejs-types";
-import { TalkMessage } from "../message/mod.ts";
+import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/client.ts";
+import type { Chat } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/chat/mod.ts";
+import type * as line from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
+import { TalkMessage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/message/mod.ts";
 
 export interface MessageFetcher {
 	fetch: (limit: number) => Promise<TalkMessage[]>;

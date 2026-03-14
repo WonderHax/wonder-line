@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../../../linejs/packages/linejs/base/types.ts"],"names":[],"mappings":"AAAA;;;GAGG;AAGH;;;GAGG;AACH,MAAM,WAAW,SAAS;IACzB,CAAC,GAAG,EAAE,OAAO,GAAG,QAAQ,GAAG,OAAO,CAAC,QAAQ,CAAC,CAAC;CAC7C;AACD,MAAM,MAAM,KAAK,GAAG,CACnB,IAAI,EAAE,WAAW,GAAG,GAAG,EACvB,IAAI,CAAC,EAAE,WAAW,KACd,OAAO,CAAC,QAAQ,CAAC,CAAC"}

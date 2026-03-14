@@ -3,7 +3,7 @@
  * Warning: messy code
  */
 import * as path_ from "https://deno.land/std@0.79.0/path/mod.ts";
-import { Thrift as _Thrift } from "../../packages/types/thrift.ts";
+import { Thrift as _Thrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/types/thrift.ts";
 export function main(
 	Thrift: Record<string, any[] | Record<string, string>> = _Thrift,
 	path?: string,
@@ -11,10 +11,10 @@ export function main(
 	const argList: string[] = [];
 	const structList: string[] = [];
 	const result = [`
-    import * as LINETypes from "@evex/linejs-types"
+    import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts"
     import {
         type NestedArray,
-    } from "../mod.ts";
+    } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/scripts/mod.ts";
     function map(call: ((v:any)=>NestedArray) | ((v:any)=>number), value:any):Record<keyof any, NestedArray|number>{
         const tMap: Record<keyof any, NestedArray|number> = {}
         for (const key in value) {

@@ -1,14 +1,14 @@
 // @ts-types="thrift-types"
-import * as thrift from "thrift";
+import * as thrift from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 import { Buffer } from "node:buffer";
 import {
 	genHeader,
 	type NestedArray,
 	type ProtocolKey,
 	type Protocols,
-} from "./declares.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
 import Int64 from "node-int64";
-import type { LooseType } from "@evex/loose-types";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 const Thrift = thrift.Thrift;
 export function writeThrift(

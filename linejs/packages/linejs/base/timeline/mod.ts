@@ -1,6 +1,6 @@
 // deno-lint-ignore-file no-explicit-any
-import type { BaseClient } from "../mod.ts";
-import type { LooseType } from "@evex/loose-types";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/mod.ts";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 export type TimelineResponse<T = LooseType> = {
 	code: number;

@@ -1,5 +1,5 @@
-import { Key } from "node-bignumber";
-import type { RSAKey } from "@evex/linejs-types";
+import { Key } from "https://esm.sh/bignumber.js";
+import type { RSAKey } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 
 export function getRSACrypto(message: string, json: RSAKey) {
 	const rsa = new Key();
@@ -12,7 +12,7 @@ export function getRSACrypto(message: string, json: RSAKey) {
 /*
 import crypto from "node:crypto";
 import { Buffer } from "node:buffer";
-import type { RSAKey } from "@evex/linejs-types";
+import type { RSAKey } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 
 function encodeLength(len: number) {
 	// short form

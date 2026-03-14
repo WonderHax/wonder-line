@@ -1,12 +1,12 @@
-import { getRSACrypto } from "./rsa-verify.ts";
-import { EMAIL_REGEX, PASSWORD_REGEX } from "./regex.ts";
-import { type Device, isV3Support } from "../core/utils/devices.ts";
-import { InternalError } from "../core/mod.ts";
-import type * as LINETypes from "@evex/linejs-types";
+import { getRSACrypto } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/login/rsa-verify.ts";
+import { EMAIL_REGEX, PASSWORD_REGEX } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/login/regex.ts";
+import { type Device, isV3Support } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/devices.ts";
+import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
+import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 import { Buffer } from "node:buffer";
-import { LINEStruct } from "../thrift/mod.ts";
-import type { BaseClient } from "../core/mod.ts";
-import type { LooseType } from "@evex/loose-types";
+import { LINEStruct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 export type LoginOption = PasswordLoginOption | QrCodeLoginOption | {
 	authToken: string;

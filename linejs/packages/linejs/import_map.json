@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@evex/linejs-types": "../../types/line_types.ts",
+    "@evex/loose-types": "../../types/thrift.ts"
+  }
+}

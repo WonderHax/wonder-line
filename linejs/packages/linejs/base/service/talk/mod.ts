@@ -1,11 +1,11 @@
-import { type BaseClient, InternalError } from "../../core/mod.ts";
-import type { ProtocolKey } from "../../thrift/mod.ts";
-import type { BaseService } from "../types.ts";
-import type * as LINETypes from "@evex/linejs-types";
-import { LINEStruct } from "../../thrift/mod.ts";
+import { type BaseClient, InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
+import type { ProtocolKey } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
+import type { BaseService } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/service/types.ts";
+import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
+import { LINEStruct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
 import type { Buffer } from "node:buffer";
-import { ContentType } from "../../thrift/readwrite/struct.ts";
-import type { LooseType } from "@evex/loose-types";
+import { ContentType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 export class TalkService implements BaseService {
 	client: BaseClient;

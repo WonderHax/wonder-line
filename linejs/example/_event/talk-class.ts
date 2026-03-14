@@ -3,14 +3,14 @@
  * @experimental
  * for talk
  */
-import type * as LINETypes from "@evex/linejs-types";
-import { parseEnum } from "@evex/linejs-types/thrift";
-import type { BaseClient } from "../core/mod.ts";
+import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
+import { parseEnum } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts/thrift";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/example/core/mod.ts";
 import type { Buffer } from "node:buffer";
-import { TypedEventEmitter } from "../core/typed-event-emitter/index.ts";
-import { TalkMessage } from "./message-class.ts";
-import type { TimelineResponse } from "../timeline/mod.ts";
-import type { LooseType } from "@evex/loose-types";
+import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/example/core/typed-event-emitter/index.ts";
+import { TalkMessage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/example/_event/message-class.ts";
+import type { TimelineResponse } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/example/timeline/mod.ts";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 type GroupEvents = {
 	message: (message: TalkMessage) => void;

@@ -1,4 +1,4 @@
-import type { GetContactV3Response } from "@evex/linejs-types";
+import type { GetContactV3Response } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 
 export interface UserInit {
 	raw: GetContactV3Response;

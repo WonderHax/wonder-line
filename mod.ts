@@ -1,4 +1,4 @@
-export * from "./linejs/client/login.ts";
-export * from "./linejs/client/client.ts";
-export { loginWithAuthToken } from "./linejs/client/login.ts";
-export { loginWithPassword } from "./linejs/client/login.ts";
+export * from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/client/login.ts";
+export * from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/client/client.ts";
+export { loginWithAuthToken } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/client/login.ts";
+export { loginWithPassword } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/client/login.ts";

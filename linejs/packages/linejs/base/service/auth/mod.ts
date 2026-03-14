@@ -1,9 +1,9 @@
 // For Auth (login, refresh, etc)
 
-import { LINEStruct, type ProtocolKey } from "../../thrift/mod.ts";
-import type * as LINETypes from "@evex/linejs-types";
-import { type BaseClient, InternalError } from "../../core/mod.ts";
-import type { BaseService } from "../types.ts";
+import { LINEStruct, type ProtocolKey } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
+import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
+import { type BaseClient, InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
+import type { BaseService } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/service/types.ts";
 
 export class AuthService implements BaseService {
 	client: BaseClient;

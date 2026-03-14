@@ -1,4 +1,4 @@
-import type { LooseType } from "@evex/loose-types";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 export const Thrift: LooseType = {
 	"AR0_g": {

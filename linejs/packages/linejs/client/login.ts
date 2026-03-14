@@ -3,11 +3,11 @@
  * @module
  */
 
-import type { FetchLike } from "../base/mod.ts";
-import type { Device } from "../base/mod.ts";
-import { BaseClient } from "../base/mod.ts";
-import type { BaseStorage } from "../base/storage/mod.ts";
-import { Client } from "./client.ts";
+import type { FetchLike } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/mod.ts";
+import type { Device } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/mod.ts";
+import { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/mod.ts";
+import type { BaseStorage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/storage/mod.ts";
+import { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/client.ts";
 
 export interface InitOptions {
 	/**

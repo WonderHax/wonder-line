@@ -1,6 +1,6 @@
-import * as LINETypes from "@evex/linejs-types";
-import type { NestedArray } from "../mod.ts";
-import type { LooseType } from "@evex/loose-types";
+import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
+import type { NestedArray } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/mod.ts";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 function map(
 	call: ((v: LooseType) => NestedArray) | ((v: LooseType) => number),

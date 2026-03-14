@@ -1,11 +1,11 @@
-import type { BaseClient } from "../base/mod.ts";
-import { Square, SquareChat } from "./features/square/mod.ts";
-import { continueRequest } from "../base/mod.ts";
-import { Chat } from "./features/chat/mod.ts";
-import { User } from "./features/user/mod.ts";
-import { TypedEventEmitter } from "../base/core/typed-event-emitter/index.ts";
-import { SquareMessage, TalkMessage } from "./features/message/mod.ts";
-import type * as LINETypes from "@evex/linejs-types";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/mod.ts";
+import { Square, SquareChat } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/square/mod.ts";
+import { continueRequest } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/mod.ts";
+import { Chat } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/chat/mod.ts";
+import { User } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/user/mod.ts";
+import { TypedEventEmitter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/typed-event-emitter/index.ts";
+import { SquareMessage, TalkMessage } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/message/mod.ts";
+import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 export { Chat, Square, SquareChat, SquareMessage, TalkMessage, User };
 export interface ListenOptions {
 	/**

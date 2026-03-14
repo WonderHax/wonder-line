@@ -1,6 +1,6 @@
 import { BaseClient } from "@evex/linejs/base";
 import { FileStorage } from "@evex/linejs/storage";
-import type * as LINETypes from "@evex/linejs-types";
+import type * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 
 const storage = new FileStorage("./storage.json");
 

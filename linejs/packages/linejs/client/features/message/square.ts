@@ -5,16 +5,16 @@ import {
 	type MessageReactionType,
 	type SquareEvent,
 	type SquareMessage as Message,
-} from "@evex/linejs-types";
-import type { Client } from "../../client.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
+import type { Client } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/client.ts";
 import type {
 	EmojiMeta,
 	FileMeta,
 	FlexMeta,
 	MentionMeta,
 	StickerMetadata,
-} from "./internal-types.ts";
-import type { DecorationsData, MentionTarget, Mid } from "./types.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/message/internal-types.ts";
+import type { DecorationsData, MentionTarget, Mid } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/features/message/types.ts";
 
 const hasContents = ["IMAGE", "VIDEO", "AUDIO", "FILE"];
 export interface SquareThreadMessageInit {

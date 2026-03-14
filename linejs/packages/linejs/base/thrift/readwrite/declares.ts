@@ -1,7 +1,7 @@
 // @ts-types="thrift-types"
-import * as thrift from "thrift";
+import * as thrift from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 import { Buffer } from "node:buffer";
-import type { LooseType } from "@evex/loose-types";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 export const genHeader = {
 	3: (name: string) => {

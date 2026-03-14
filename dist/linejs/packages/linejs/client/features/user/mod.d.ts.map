@@ -1,0 +1,1 @@
+{"version":3,"file":"mod.d.ts","sourceRoot":"","sources":["../../../../../../../linejs/packages/linejs/client/features/user/mod.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,oBAAoB,EAAE,MAAM,oBAAoB,CAAC;AAE/D,MAAM,WAAW,QAAQ;IACxB,GAAG,EAAE,oBAAoB,CAAC;CAC1B;AAED,qBAAa,IAAI;IAChB,QAAQ,CAAC,GAAG,EAAE,MAAM,CAAC;IACrB,QAAQ,CAAC,GAAG,EAAE,oBAAoB,CAAC;gBACvB,IAAI,EAAE,QAAQ;CAI1B"}

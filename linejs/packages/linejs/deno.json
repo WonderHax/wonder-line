@@ -8,6 +8,7 @@
 		"./storage": "./base/storage/mod.ts",
 		"./thrift": "./base/thrift/mod.ts"
 	},
+	"importMap": "./import_map.json",
 	"imports": {
 		"@evex/loose-types": "jsr:@evex/loose-types@^1.0.1",
 		"thrift-types": "npm:@types/thrift@^0.10.17",
@@ -21,4 +22,5 @@
 		"node-types": "npm:@types/node@latest",
 		"node-int64": "npm:node-int64@^0.4.0"
 	}
+	
 }

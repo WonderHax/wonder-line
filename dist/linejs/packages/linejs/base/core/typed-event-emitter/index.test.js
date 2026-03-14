@@ -1,0 +1,12 @@
+import { assertEquals } from "@std/assert";
+import { TypedEventEmitter } from "./index.ts";
+Deno.test("promise() should be vaild", async () => {
+    class Client extends TypedEventEmitter {
+    }
+    const client = new Client();
+    const promise = client.waitFor("example");
+    client.emit("example", 123456);
+    const [v] = await promise;
+    assertEquals(v, 123456);
+});
+//# sourceMappingURL=index.test.js.map

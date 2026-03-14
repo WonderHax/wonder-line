@@ -1,13 +1,13 @@
-import type { BaseClient } from "../core/mod.ts";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
 import {
 	LegyH2PingFrame,
 	LegyH2PingFrameType,
 	LegyH2PushFrame,
 	LegyH2PushFrameType,
 	LegyH2SignOnResponseFrame,
-} from "./connData.ts";
-import type { ConnManager, ReadableStreamWriter } from "./connManager.ts";
-import type { LooseType } from "@evex/loose-types";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/connData.ts";
+import type { ConnManager, ReadableStreamWriter } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/push/connManager.ts";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 export class Conn {
 	manager: ConnManager;

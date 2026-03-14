@@ -1,14 +1,14 @@
 import { sharedKey } from "curve25519-js";
 import crypto from "node:crypto";
 import { Buffer } from "node:buffer";
-import type { Location, Message } from "@evex/linejs-types";
+import type { Location, Message } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
 import nacl from "tweetnacl";
-import { InternalError } from "../core/utils/error.ts";
-import * as LINETypes from "@evex/linejs-types";
-import type { BaseClient } from "../core/mod.ts";
-import { ContentType } from "../thrift/readwrite/struct.ts";
+import { InternalError } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/utils/error.ts";
+import * as LINETypes from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/line_types.ts";
+import type { BaseClient } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/core/mod.ts";
+import { ContentType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
 import CryptoJS from "crypto-js";
-import type { LooseType } from "@evex/loose-types";
+import type { LooseType } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/linejs/packages/types/thrift.ts";
 
 interface GroupKey {
 	privKey: string;

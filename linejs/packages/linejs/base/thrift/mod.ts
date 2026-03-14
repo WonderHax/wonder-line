@@ -3,11 +3,11 @@ export {
 	type ParsedThrift,
 	type ProtocolKey,
 	Protocols,
-} from "./readwrite/declares.ts";
-export * as LINEStruct from "./readwrite/struct.ts";
-import { ThriftRenameParser } from "./rename/parser.ts";
-import { readThrift, readThriftStruct } from "./readwrite/read.ts";
-import { writeThrift } from "./readwrite/write.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/declares.ts";
+export * as LINEStruct from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/struct.ts";
+import { ThriftRenameParser } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/rename/parser.ts";
+import { readThrift, readThriftStruct } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/read.ts";
+import { writeThrift } from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/base/thrift/readwrite/write.ts";
 
 /**
  * Thrift Client

@@ -6,5 +6,5 @@ export {
 	SquareMessage,
 	TalkMessage,
 	User,
-} from "./client.ts";
-export * from "./login.ts";
+} from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/client.ts";
+export * from "https://raw.githubusercontent.com/wonderhax/wonder-line/main/C:/Users/Admin/Documents/work/wonder-line/linejs/packages/linejs/client/login.ts";
